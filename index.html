@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Cumpleaños Stephan!</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background-image"></div> <!-- Imagen de fondo -->
+    <div class="page">
+        <div class="invitation-card">
+            <h1 class="title">¡Te invito a mi primer Añito!</h1>
+            <p class="description">Estamos emocionados de invitarte al cumpleaños de Stephan Eduardo</p>
+            <p class="details">Día: Sábado 31 de agosto <br>
+                Hora: 15h00</p>
+            <p class="asistencia"> ¡Confirmanos tu asistencia!<br>
+                 Katherin: 0958970393 <i class="fab fa-whatsapp"></i>
+            </p>
+            <button class="location-button" onclick="window.open('https://maps.app.goo.gl/1MPR739WuhYmbBrx7', '_blank')">Mira aquí la ubicación de la recepción</button>
+        </div>
+    </div>
+
+    <!-- Audio de fondo -->
+    <audio id="background-audio" autoplay loop>
+        <source src="img/cumple.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+    <!-- Footer -->
+    <footer>
+        <h3><p>@eduars94</p></h3>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
